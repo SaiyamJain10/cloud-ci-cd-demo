@@ -1,0 +1,20 @@
+{
+  "name": "cloud-ci-cd-demo",
+  "version": "1.0.0",
+  "description": "Simple Node.js app to demonstrate GitHub Actions CI/CD",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --coverage",
+    "build": "echo 'Build successful!'"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
